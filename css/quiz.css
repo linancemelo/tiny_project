@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.quiz {
+  width: 20rem;
+  height: 20rem;
+  padding: 1rem 2rem;
+  background-color: pink;
+}
+
+ul {
+  margin-top: 1.5rem;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+button {
+  float: right;
+  margin-top: 1rem;
+  padding: 0.2rem 0.5rem;
+}
