@@ -11,11 +11,19 @@ body {
   min-height: 100vh;
 }
 
+.fall{
+  position: relative;
+  background: url('https://img95.699pic.com/xsj/0c/1i/31.jpg!/fh/300') no-repeat;
+  background-size: cover;
+}
+
 .star {
   position: fixed;
   top: -1vh;
   transform: translateY(0);
   animation: fall 3s ease-in-out;
+  font-size: 2rem;
+  color: #fff;
 }
 
 @keyframes fall {

@@ -51,7 +51,7 @@ function changeState(i) {
   }
 }
 
-let category = 'all'
+let category = '全部'
 tab.addEventListener('click', changeTab)
 function changeTab(e) {
   category = e.target.innerHTML
@@ -65,13 +65,13 @@ function changeTab(e) {
 function updateList() {
   let tempList = []
   switch (category) {
-    case "all":
+    case "全部":
       tempList = data
       break
-    case "todo":
+    case "待完成":
       tempList = data.filter(i => i.checked === false)
       break
-    case "done":
+    case "已完成":
       tempList = data.filter(i => i.checked === 'checked')
       break
   }

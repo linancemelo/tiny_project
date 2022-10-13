@@ -9,13 +9,17 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: rgba(197, 235, 221, 0.5) !important;
 }
 
 .quiz {
   width: 20rem;
   height: 20rem;
-  padding: 1rem 2rem;
-  background-color: pink;
+  padding: 1rem !important;
+  align-self: center;
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 5px;
 }
 
 ul {
@@ -27,8 +31,8 @@ li {
   margin-bottom: 1rem;
 }
 
-button {
+.btn {
   float: right;
-  margin-top: 1rem;
-  padding: 0.2rem 0.5rem;
+  margin: 1rem 1rem 0 0;
+  padding: 0.2rem 1rem !important;
 }

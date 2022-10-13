@@ -9,19 +9,46 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: rgba(197, 235, 221, 0.5) !important;
+}
+.todo {
+  height: auto;
+  padding: 1rem !important;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.input{
+  width: 27rem;
 }
 
 li {
   list-style: none;
 }
-
+.todoList{
+  margin: 1rem 0 !important;
+  padding: 0 !important;
+}
+.todoList > li{
+  margin: 0.5rem 0;
+}
+.todoList li a{
+  text-decoration: none;
+  float: right;
+  color: #000;
+}
 .tab {
   display: flex;
 }
 
-.tab li {
+.tabs {
   border: 1px solid #000;
   margin-right: 1rem;
+  padding: 0.2rem 1rem;
+  list-style: none;
 }
 
 .active {

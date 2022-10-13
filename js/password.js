@@ -28,6 +28,7 @@ function generatePassword() {
     password += x
   }
   pw.innerText = password
+  document.querySelector('.copy').classList.remove('d-none')
 }
 function generateX() {
   let tempList = []
