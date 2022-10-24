@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOS Calculator</title>
+    <link rel="shortcut icon" href="./photo/calculator.ico" type="images/x-icon">
+    <link rel="stylesheet" href="./css/calculator.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 vh-100 bg-dark">
+                <h3 class="text-light text-center mt-3">JS/CSS小項目</h3>
+                <div class="sticky-top" style="top: 76px">
+                    <div class="list-group">
+                        <a href="/tiny_project/Calculator.html" class="list-group-item list-group-item-action
+                        list-group-item-success text-center
+                        ">
+                            計算機
+                        </a>
+                        <a href="/tiny_project/Quiz.html" class="list-group-item list-group-item-action
+              list-group-item-success text-center
+              ">
+                            猜題
+                        </a>
+                        <a href="/tiny_project/Rainfall.html" class="list-group-item list-group-item-action
+              list-group-item-success text-center
+              ">
+                            瀑布向下效果
+                        </a>
+                        <a href="/tiny_project/Todo.html" class="list-group-item list-group-item-action
+              list-group-item-success text-center
+              ">
+                            Todo App
+                        </a>
+                        <a href="/tiny_project/PasswordGenerator.html" class="list-group-item list-group-item-action
+              list-group-item-success text-center
+              ">
+                            密碼隨機產生器
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 calculator container-fluid">
+                <div class="top">
+                    <div class="circle bg-danger"></div>
+                    <div class="circle bg-warning"></div>
+                    <div class="circle bg-success"></div>
+                </div>
+                <div class="result text-light mt-5">0</div>
+                <div class="button-container container-fluid py-3">
+                    <div class="row">
+                        <div class="col-3 text-center"><button class="btn special clear">AC</button></div>
+                        <div class="col-3 text-center"><button class="btn special delete">Del</button></div>
+                        <div class="col-3 text-center"><button class="btn special percentage">%</button></div>
+                        <div class="col-3 text-center"><button class="btn operation" value="/">÷</button></div>
+                        <div class="col-3 text-center"><button class="btn number">7</button></div>
+                        <div class="col-3 text-center"><button class="btn number">8</button></div>
+                        <div class="col-3 text-center"><button class="btn number">9</button></div>
+                        <div class="col-3 text-center"><button class="btn operation" value="*">x</button></div>
+                        <div class="col-3 text-center"><button class="btn number">4</button></div>
+                        <div class="col-3 text-center"><button class="btn number">5</button></div>
+                        <div class="col-3 text-center"><button class="btn number">6</button></div>
+                        <div class="col-3 text-center"><button class="btn operation" value="-">-</button></div>
+                        <div class="col-3 text-center"><button class="btn number">1</button></div>
+                        <div class="col-3 text-center"><button class="btn number">2</button></div>
+                        <div class="col-3 text-center"><button class="btn number">3</button></div>
+                        <div class="col-3 text-center"><button class="btn operation" value="+">+</button></div>
+                        <div class="col-6 text-center"><button class="btn number zero">0</button></div>
+                        <div class="col-3 text-center"><button class="btn dot">.</button></div>
+                        <div class="col-3 text-center"><button class="btn operation" value="=">=</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/calculator.js"></script>
+</body>
+
+</html>
